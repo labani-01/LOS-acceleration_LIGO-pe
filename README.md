@@ -28,6 +28,7 @@ For installing the waveform model, please follow these steps:
 ```bash
 conda create -n acc_env python=3.11
 conda activate acc_env
+```
 
 ### Install PyCBC
 
@@ -40,6 +41,7 @@ pip install -r requirements.txt
 pip install -r companion.txt
 pip install .
 cd ..
+``` 
 
 ### Install acceleration waveform
 
@@ -48,5 +50,5 @@ git clone git@github.com:labani-01/pycbc_acceleration_waveform.git
 cd pycbc_acceleration_waveform
 pip install .
 cd ..
-
+```
 
