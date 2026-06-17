@@ -1,6 +1,6 @@
 # Constraints on Line-of-Sight Acceleration from O1–O4a
 
-**Labani Roy¹ and Alexander H. Nitz¹**  
+**Labani Roy¹, Alexander H. Nitz¹**  
 ¹ Department of Physics, Syracuse University, Syracuse, NY 13244, USA  
 
 ---
