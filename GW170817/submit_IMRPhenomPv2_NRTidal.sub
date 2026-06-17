@@ -1,0 +1,16 @@
+universe = vanilla
+executable = /home/lroy02/ground_based_acc/separate_runs/GW170817/run_nonzero_a_IMRPhenomPv2_NRTidal.sh
+getenv = True
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+output =  /home/lroy02/ground_based_acc/separate_runs/GW170817/out_nonzero_a_IMRPhenomPv2_NRTidal.txt
+error =  /home/lroy02/ground_based_acc/separate_runs/GW170817/error_nonzero_a_IMRPhenomPv2_NRTidal.txt
+log =  /home/lroy02/ground_based_acc/separate_runs/GW170817/log_nonzero_a_IMRPhenomPv2_NRTidal.txt
+
+request_memory = 100GB
+request_cpus = 64
+#requirements  = TotalGPUs > 0
+#+request_gpus = 1
+
+queue
