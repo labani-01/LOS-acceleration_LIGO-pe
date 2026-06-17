@@ -30,7 +30,7 @@ conda create -n acc_env python=3.11
 conda activate acc_env
 ```
 
-### Install PyCBC
+### 2. Install PyCBC
 
 ```bash
 mkdir LOS_acc
@@ -43,7 +43,7 @@ pip install .
 cd ..
 ``` 
 
-### Install acceleration waveform
+### 3. Install acceleration waveform
 
 ```bash
 git clone git@github.com:labani-01/pycbc_acceleration_waveform.git
