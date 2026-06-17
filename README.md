@@ -21,13 +21,17 @@ Across all analyzed events, we find results consistent with zero LOS acceleratio
 
 ## Installation
 
+For installing the waveform model, please follow these steps:
+
 ### 1. Create environment
 
 ```bash
-conda create -n acc_waveform python=3.11
-conda activate acc_waveform
+conda create -n acc_env python=3.11
+conda activate acc_env
 
 ### Install PyCBC
+
+```bash
 mkdir LOS_acc
 cd LOS_acc
 git clone git@github.com:gwastro/pycbc.git
@@ -37,9 +41,9 @@ pip install -r companion.txt
 pip install .
 cd ..
 
-
 ### Install acceleration waveform
 
+```bash
 git clone git@github.com:labani-01/pycbc_acceleration_waveform.git
 cd pycbc_acceleration_waveform
 pip install .
