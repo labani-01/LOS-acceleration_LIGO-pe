@@ -9,13 +9,8 @@
 
 This repository contains the data and code associated with the study:
 
-> *Constraints on Line-of-Sight Acceleration from O1–O4a*
 
-The project measures line-of-sight (LOS) acceleration using all available gravitational-wave observations from the first four observing runs (O1–O4a) of LIGO and Virgo.
-
-We introduce a new method to model the LOS acceleration by directly applying the time-varying Doppler in the time domain to the signal produced in the binary's frame; this method can be applied to any waveform model including those with higher order modes, eccentricity, and precession.
-
-Across all analyzed events, we find results consistent with zero LOS acceleration.
+This project measures line-of-sight (LOS) acceleration using observed gravitational-wave observations from the first four observing runs (O1–O4a) of LIGO and Virgo. We introduce a new method to model the LOS acceleration by directly applying the time-varying Doppler in the time domain to the signal produced in the binary's frame; this method can be applied to any waveform model including those with higher order modes, eccentricity, and precession. Across all analyzed events, we find results consistent with zero LOS acceleration.
 
 ---
 
